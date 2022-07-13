@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    /*overflow: hidden;*/
+    color: #000;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    /*font-family: 'Montserrat', 'Arial', sans-serif;*/
+    font-family:  'Cormorant Upright', serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.white-back {
+    position: relative;
+}
+
+.section-header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.section-header-img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0 3% 20px 3%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 300;
+    color: #000;
+    font-family:  'Cormorant Upright', serif;
+    letter-spacing: 1px;
+}
+
+.section-header-line {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.section-header-line div {
+    width: 75px;
+    height: 2px;
+    background: #225297;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 2s linear;
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75px;
+    }
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.section-project-overview {
+    padding: 60px 0;
+}
+
+.project-header {
+    margin: 0 3% 20px 3%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.overview-text { 
+    margin: 0 30px;
+    text-align: justify;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 90%;
+    line-height: 1.5;
+}
+
+.section-gallery {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.margin-top-1 {
+    margin: 1% 0 0 0;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-1-of-2 {
+    flex: 0 0 50%;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.display-1-of-4 {
+    flex: 0 0 25%;
+}
+
+.display-1-of-5 {
+    flex: 0 0 20%;   
+}
+
+.display-1-of-7 {
+    flex: 0 0 14.285%%;
+}
+
+.display-1-of-8 {
+    flex: 0 0 12.5%;
+}
+
+.view-gallery {
+    cursor: pointer;
+}
+
+.project-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.mfp-title,
+.mfp-counter {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}

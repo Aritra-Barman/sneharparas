@@ -1,0 +1,73 @@
+footer {
+    background-color: #343434;
+    padding: 30px;
+    font-size: 90%;
+    color: #fff;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.contact {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.contact li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #aaa;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #eee;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.contact li a:link,
+.contact li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #aaa;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.contact li a:hover,
+.contact li a:active {
+    color: #eee;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.icon-small {
+    width: auto;
+    display: inline-block;
+    color: #aaa;
+    margin-right: 3px;
+    font-size: 125%;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.company-name-footer {
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
