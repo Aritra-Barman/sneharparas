@@ -103,7 +103,7 @@ h1 {
 }
 
 .section-gallery {
-    padding: 80px 0;
+    padding: 80px 0 0 0;
     background-color: #f8f8f8;
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
@@ -158,4 +158,42 @@ h1 {
 .mfp-title,
 .mfp-counter {
     font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.section-project-nav {
+    padding: 60px 3%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-nav-button {
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    padding: 10px 30px;
+    border: 1px solid #225297;
+    border-radius: 30px;
+    color: #225297;
+    font-size: 70%;
+    font-weight: 500;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.icon-small-blue {
+    width: auto;
+    display: inline-block;
+    color: #225297;
+    font-size: 110%;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.left-arrow {
+    margin-right: 10px;
+}
+
+.right-arrow {
+    margin-left: 10px;
 }
