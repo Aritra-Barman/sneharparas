@@ -314,19 +314,29 @@ h1 {
     color: #000;
 }
 
-.section-careers {
+.section-quote {
     background-color: #225297;
     padding: 100px 0;
     text-align: center;
 }
 
-.careers-text {
-    color: #fff;
-    font-size: 150%;
+.quote {
+    width: 100%;
+    text-align: center;
 }
 
-.section-careers div {
-    margin-top: 40px;
+.quote span:first-child {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    font-family: 'Petit Formal Script', cursive;
+    color: #fff;
+}
+
+.quote span:last-child {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 .section-news-events {
