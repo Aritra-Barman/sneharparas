@@ -15,8 +15,22 @@
         .row {
             margin: 0 7%;
         }
+        .text {
+            font-size: 100%;
+        }
+        .quote-1 {
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .quote-1 div:first-child {
+            font-size: 100%;
+        }
+        .quote-1 div:last-child {
+            font-size: 150%;
+        }
         .company-desc {
-            font-weight: 400;
+            font-weight: 500;
         }
         .section-welcome {
             background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/logo_section_welcome2.jpg");
