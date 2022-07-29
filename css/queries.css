@@ -12,8 +12,15 @@
         html, body {
             font-size: 35px;
         }
-        .row, .row-narrow {
+        .btn,
+        .btn-invert {
+            font-size: 125%;
+        }
+        .row {
             margin: 0 7%;
+        }
+        .row-narrow {
+            margin: 0 3%;
         }
         .text {
             font-size: 100%;
@@ -32,8 +39,13 @@
         .quote-1 div:last-child {
             font-size: 150%;
         }
-        .company-desc {
+        .company-desc,
+        .blockquote {
             font-weight: bold;
+            font-size: 125%;
+        }
+        .blockquote {
+            z-index: 2;
         }
         .section-welcome {
             background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/logo_section_welcome2.jpg");
@@ -41,5 +53,23 @@
         .desk-of-md-float-media {
             float: none;
             width: 100%;
+        }
+        .project-text {
+            font-size: 110%;
+        }
+        .section-desk-of-md {
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+        .md-say:before {
+            top: -60px;
+            z-index: 1;
+        }
+        .section-quote {
+            padding: 120px 7%;
+        }
+        .box-news {
+            padding-top: 1.5%;
+            padding-bottom: 1.5%;
         }
 }
