@@ -111,4 +111,18 @@
         .company-name-footer {
             font-size: 100%;
         }
-}
+
+        /*Projects Page*/
+        .site-plan {
+            width: 75%;
+        }
+        .projects-row {
+            display: inline-block;
+        }
+        .project-card {
+            width: 700px;
+            height: 350px;
+        }
+        .project-img {
+            width: 350px;
+        }
