@@ -65,7 +65,7 @@
         .float-media {
             float: none;
             width: 100%;
-            margin: 2% 0 0 0;
+            margin: 3% 0 0 0;
         }
         .project-text {
             font-size: 110%;
@@ -113,8 +113,11 @@
         }
 
         /*Projects Page*/
+        .location-highlights {
+            font-weight: 400;
+        }
         .site-plan {
-            width: 75%;
+            width: 90%;
         }
         .projects-row {
             display: inline-block;
@@ -126,3 +129,4 @@
         .project-img {
             width: 350px;
         }
+}
