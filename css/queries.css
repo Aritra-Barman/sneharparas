@@ -16,6 +16,10 @@
         .btn-invert {
             font-size: 125%;
         }
+        .btn a,
+        .btn-invert a {
+            padding: 15px 50px;
+        }
         .row {
             margin: 0 7%;
         }
@@ -39,9 +43,13 @@
         .quote-1 div:last-child {
             font-size: 150%;
         }
+        .section-welcome {
+            padding: 100px 0;
+        }
         .company-desc {
             font-weight: bold;
             font-size: 125%;
+            text-align: center;
         }
         .section-welcome {
             background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/logo_section_welcome2.jpg");
@@ -67,6 +75,9 @@
         }
         .md-say:before {
             content: "";
+        }
+        .md-say {
+            text-align: center;
         }
         .blockquote {
             font-weight: 500;
@@ -96,7 +107,10 @@
         }
         .footer-nav,
         .contact {
-            text-align: center;
-            margin-bottom: 25px;
+            font-size: 110%;
+            margin-bottom: 30px;
+        }
+        .company-name-footer {
+            font-size: 100%;
         }
 }
