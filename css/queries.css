@@ -56,7 +56,7 @@
         .float-media {
             float: none;
             width: 100%;
-            margin: 0;
+            margin: 2% 0 0 0;
         }
         .project-text {
             font-size: 110%;
