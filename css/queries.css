@@ -94,4 +94,9 @@
         .news-desc {
             font-size: 90%;
         }
+        .footer-nav,
+        .contact {
+            text-align: center;
+            margin-bottom: 25px;
+        }
 }
