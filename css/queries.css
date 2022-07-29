@@ -12,4 +12,13 @@
         html, body {
             font-size: 35px;
         }
+        .row {
+            margin: 0 7%;
+        }
+        .company-desc {
+            font-weight: 400;
+        }
+        .section-welcome {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/logo_section_welcome2.jpg");
+        }
 }
