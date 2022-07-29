@@ -12,7 +12,7 @@
         html, body {
             font-size: 35px;
         }
-        .row {
+        .row, .row-narrow {
             margin: 0 7%;
         }
         .text {
@@ -38,14 +38,8 @@
         .section-welcome {
             background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/logo_section_welcome2.jpg");
         }
-        .display-flex-normal {
-            display: inline-block;
-            margin: 0;
-        }
-        .display-flex-media {
-            display: flex;
-        }
-        .display-1-of-4-2 {
-            flex: 0 0 50%;;
+        .desk-of-md-float-media {
+            float: none;
+            width: 100%;
         }
 }
