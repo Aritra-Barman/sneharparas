@@ -15,6 +15,7 @@
         .btn,
         .btn-invert {
             font-size: 125%;
+            margin-top: 50px;
         }
         .btn a,
         .btn-invert a {
@@ -76,9 +77,6 @@
         .md-say:before {
             content: "";
         }
-        .md-say {
-            text-align: center;
-        }
         .blockquote {
             font-weight: 500;
             font-size: 125%;
@@ -108,7 +106,7 @@
         .footer-nav,
         .contact {
             font-size: 110%;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         .company-name-footer {
             font-size: 100%;
