@@ -56,6 +56,7 @@
         .float-media {
             float: none;
             width: 100%;
+            margin: 0;
         }
         .project-text {
             font-size: 110%;
@@ -71,11 +72,26 @@
             font-weight: 500;
             font-size: 125%;
         }
+        .md-name {
+            font-weight: 300;
+        }
         .section-quote {
             padding: 120px 7%;
+        }
+        .quote span:first-child {
+            margin-bottom: 30px;
         }
         .box-news {
             padding-top: 1.5%;
             padding-bottom: 1.5%;
+        }
+        .news-title {
+            font-size: 110%;
+        }
+        .news-date {
+            font-size: 80%;
+        }
+        .news-desc {
+            font-size: 90%;
         }
 }
