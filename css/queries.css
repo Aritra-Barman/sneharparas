@@ -19,9 +19,12 @@
             font-size: 100%;
         }
         .quote-1 {
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            width: 100%;
+            top: 400px;
+            left: 0%;
+            right: 0%;
+            transform: translate(0, -50%);
+            text-align: center;
         }
         .quote-1 div:first-child {
             font-size: 100%;
