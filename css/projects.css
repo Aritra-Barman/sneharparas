@@ -116,7 +116,8 @@ h1 {
 }
 
 .pd-text {
-    font-size: 125%;
+    font-size: 115%;
+    letter-spacing: 0.5px;
 }
 
 .section-location {

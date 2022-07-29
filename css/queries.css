@@ -1,0 +1,15 @@
+@media screen 
+    and (max-device-width: 1200px)
+    and (max-device-height: 2600px) {
+        html, body {
+            font-size: 30px;
+        }
+}
+
+@media screen 
+    and (max-device-width: 800px)
+    and (max-device-height: 1100px) {
+        html, body {
+            font-size: 20px;
+        }
+}
