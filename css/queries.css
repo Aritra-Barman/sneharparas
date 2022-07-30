@@ -128,6 +128,8 @@
             top: 450px;
         }
         .quote-contact-media {
+            font-size: 90%;
+            font-weight: 400;
             top: 425px;
         }
         .contact-details-ul {
@@ -174,5 +176,10 @@
         }
         .project-img {
             width: 350px;
+        }
+
+        /*Contact page*/
+        .map {
+            height: 500px;
         }
 }
