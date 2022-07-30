@@ -131,12 +131,19 @@
             height: 0;
             visibility: hidden;
         }
-        .location-highlights {
-            font-size: 110%;
+        .media-span-1-of-2 {
+            width: 48%;
+        }
+        .location-highlights,
+        .site-address {
+            font-size: 120%;
             font-weight: 500;
         }
+        .location-map {
+            height: 500px;
+        }
         .site-plan {
-            width: 90%;
+            width: 100%;
         }
         .projects-row {
             display: inline-block;
