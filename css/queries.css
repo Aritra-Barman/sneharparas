@@ -12,6 +12,11 @@
         html, body {
             font-size: 35px;
         }
+        .main-nav {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 100%;
+        }
         .btn,
         .btn-invert {
             font-size: 125%;
@@ -184,5 +189,10 @@
         /*Footer*/
         .footer-nav li {
             margin-right: 35px;
+        }
+
+        /*Individual projects page*/
+        .section-project-overview {
+            padding-top: 30px;
         }
 }
