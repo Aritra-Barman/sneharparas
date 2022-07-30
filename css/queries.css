@@ -127,6 +127,12 @@
             font-weight: 400;
             top: 450px;
         }
+        .quote-contact-media {
+            top: 425px;
+        }
+        .contact-details-ul {
+            width: 90%;
+        }
         .clearfix-media {
             zoom: 1
         }
