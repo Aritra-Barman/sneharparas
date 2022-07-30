@@ -128,8 +128,6 @@
             top: 450px;
         }
         .quote-contact-media {
-            font-size: 90%;
-            font-weight: 400;
             top: 425px;
         }
         .contact-details-ul {
@@ -181,5 +179,10 @@
         /*Contact page*/
         .map {
             height: 500px;
+        }
+
+        /*Footer*/
+        .footer-nav li {
+            margin-right: 35px;
         }
 }
