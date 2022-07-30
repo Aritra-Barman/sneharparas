@@ -1,0 +1,172 @@
+@media screen 
+    and (max-device-width: 1200px)
+    and (max-device-height: 2600px) {
+        html, body {
+            font-size: 45px;
+        }
+}
+
+@media screen 
+    and (max-device-width: 800px)
+    and (max-device-height: 1100px) {
+        html, body {
+            font-size: 35px;
+        }
+        .btn,
+        .btn-invert {
+            font-size: 125%;
+            margin-top: 50px;
+        }
+        .btn a,
+        .btn-invert a {
+            padding: 15px 50px;
+        }
+        .row {
+            margin: 0 7%;
+        }
+        .row-narrow {
+            margin: 0 3%;
+        }
+        .text {
+            font-size: 100%;
+        }
+        .quote-1 {
+            width: 100%;
+            top: 400px;
+            left: 0%;
+            right: 0%;
+            transform: translate(0, -50%);
+            text-align: center;
+        }
+        .quote-1 div:first-child {
+            font-size: 100%;
+        }
+        .quote-1 div:last-child {
+            font-size: 150%;
+        }
+        .section-welcome {
+            padding: 100px 0;
+        }
+        .company-desc {
+            font-weight: bold;
+            font-size: 125%;
+            text-align: center;
+        }
+        .section-welcome {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/logo_section_welcome2.jpg");
+        }
+        .section-our-projects {
+            padding: 100px 0;
+        }
+        .section-desk-of-md {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .float-media {
+            float: none;
+            width: 100%;
+            margin: 3% 0 0 0;
+        }
+        .project-text {
+            font-size: 110%;
+        }
+        .section-desk-of-md {
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+        .md-say:before {
+            content: "";
+        }
+        .blockquote {
+            font-weight: 500;
+            font-size: 125%;
+        }
+        .md-name {
+            font-weight: 300;
+        }
+        .section-quote {
+            padding: 120px 7%;
+        }
+        .quote span:first-child {
+            margin-bottom: 30px;
+        }
+        .box-news {
+            padding-top: 1.5%;
+            padding-bottom: 1.5%;
+        }
+        .news-title {
+            font-size: 110%;
+        }
+        .news-date {
+            font-size: 80%;
+        }
+        .news-desc {
+            font-size: 90%;
+        }
+        .footer-nav,
+        .contact {
+            font-size: 110%;
+            margin-bottom: 40px;
+        }
+        .company-name-footer {
+            font-size: 100%;
+        }
+
+        /*Projects Page*/
+        .section-proposed-developments,
+        .section-location,
+        .section-site-plan,
+        .section-projects {
+            padding: 100px 0;
+        }
+        .page-header {
+            font-size: 300%;
+        }
+        .quote {
+            font-size: 90%;
+            font-weight: 400;
+            top: 450px;
+        }
+        .clearfix-media {
+            zoom: 1
+        }
+        .clearfix-media:after {
+            content: '.';
+            clear: both;
+            display: block;
+            height: 0;
+            visibility: hidden;
+        }
+        .media-span-1-of-2 {
+            width: 48%;
+        }
+        .pd-text {
+            font-size: 125%;
+            font-weight: 400;
+        }
+        .location-highlights,
+        .site-address {
+            font-size: 120%;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        .location-highlights li {
+            margin-bottom: 10px;
+        }
+        .location-map {
+            height: 500px;
+        }
+        .site-plan {
+            width: 100%;
+        }
+        .projects-row {
+            display: inline-block;
+        }
+        .project-card {
+            width: 700px;
+            height: 350px;
+        }
+        .project-img {
+            width: 350px;
+        }
+}
