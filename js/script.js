@@ -34,6 +34,9 @@ $(document).ready(function() {
         image: {
             cursor: null,
             verticalFit: true
+        }, 
+        zoom: {
+            enabled: true
         }
     });
 });
