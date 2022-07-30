@@ -113,8 +113,27 @@
         }
 
         /*Projects Page*/
-        .location-highlights {
+        .page-header {
+            font-size: 300%;
+        }
+        .quote {
+            font-size: 90%;
             font-weight: 400;
+            top: 450px;
+        }
+        .clearfix-media {
+            zoom: 1
+        }
+        .clearfix-media:after {
+            content: '.';
+            clear: both;
+            display: block;
+            height: 0;
+            visibility: hidden;
+        }
+        .location-highlights {
+            font-size: 110%;
+            font-weight: 500;
         }
         .site-plan {
             width: 90%;

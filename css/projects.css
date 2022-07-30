@@ -153,11 +153,8 @@ h1 {
     /*background-color: #225297;*/
 }
 
-.view-site-plan {
-    cursor: zoom-in;
-}
-
 .site-plan {
+    cursor: zoom-in;
     margin-top: 20px;
     width: 40%;
     height: auto;
